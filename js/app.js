@@ -22,9 +22,6 @@ $('#send').click(function() {
             }
         }
     }).done(function(response) {
-            console.log('sent'); // if you're into that sorta thing
-            console.log(name);
-            console.log(email);
             alert('Your message was sent. Thank you!');
     });
 });
