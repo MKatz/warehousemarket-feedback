@@ -6,10 +6,6 @@ label, h1, h4 {
     color: white;
 }
 
-#header {
-    max-height: 200px;
-}
-
 #logo {
     margin-top: 5px;
 }
