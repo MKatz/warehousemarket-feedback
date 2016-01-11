@@ -9,3 +9,7 @@ label, h1, h4 {
 #logo {
     margin-top: 5px;
 }
+
+button {
+    margin: 10px;
+}
