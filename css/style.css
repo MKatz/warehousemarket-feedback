@@ -1,4 +1,4 @@
-.container {
+body {
     background: #f60000;
 }
 
@@ -12,4 +12,12 @@ label, h1, h4 {
 
 button {
     margin: 10px;
+}
+
+#container {
+    position: relative;
+}
+#copyright {
+    position: absolute;
+    bottom: 0;
 }
