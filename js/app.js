@@ -27,6 +27,7 @@ $('#sendRequest').click(function() {
         }
     }).done(function(response) {
             alert('Your product request was sent. Thank you!');
+            location.reload();
     });
 });
 
@@ -55,5 +56,6 @@ $('#sendProblem').click(function() {
         }
     }).done(function(response) {
             alert('Your problem/suggestion was sent. Thank you!');
+            location.reload();
     });
 });
